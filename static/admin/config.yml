@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Mathbono/blog
+  repo: Mathbono/20-06-gatsby-le-magnifique
 
 media_folder: static/assets
 public_folder: assets
