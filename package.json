@@ -1,0 +1,57 @@
+{
+  "name": "blog",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Mathieu Bonomini",
+  "dependencies": {
+    "@ant-design/icons": "^4.2.1",
+    "@raae/gatsby-remark-oembed": "^0.1.1",
+    "gatsby": "^2.21.37",
+    "gatsby-image": "^2.4.4",
+    "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-catch-links": "^2.3.4",
+    "gatsby-plugin-less": "^3.2.2",
+    "gatsby-plugin-manifest": "^2.4.5",
+    "gatsby-plugin-netlify-cms": "^4.3.4",
+    "gatsby-plugin-offline": "^3.2.3",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-sharp": "^2.6.4",
+    "gatsby-remark-component": "^1.1.3",
+    "gatsby-remark-external-links": "0.0.4",
+    "gatsby-source-filesystem": "^2.3.4",
+    "gatsby-transformer-remark": "^2.8.14",
+    "gatsby-transformer-sharp": "^2.5.2",
+    "less": "^3.11.2",
+    "netlify-cms-app": "^2.12.14",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0",
+    "rehype-react": "^5.0.1",
+    "typeface-fira-sans": "0.0.75"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
